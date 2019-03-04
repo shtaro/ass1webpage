@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+<div id="menu">
+  <ul>
+    <li><a href="#about">About Me</a></li>
+    <li><a href="#photos">My Photos</a></li>
+    <li><a href="#playlist">My Playlist</a></li>
+    <li><a href="#like">Like</a></li>
+    <li><a href="#qrcoder">QR code</a></li>
+    <li><a href="#spa">Q&A</a></li>
+    <li><a href="#contact">Contact Me</a></li>
+  </ul>
+</div>
+		  
+<section id="about" class="section">
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<h1>Welcome to my web page!</h1>
+<br/>
+<br/>
+<br/>
+<h2><span>About Me</span></h2>
+<br/>
+  <p>
+  I am Or Shtar, I like to exercise and watch series in my free time.
+  <br/>
+  Throughout my studies, I found out I interested in the cyber field.
+  <br/>
+  I am really excited about this course because I find very interesting and usefull to learn how to develop web apps.
+  <br/>
+  The hardest part of this assignment is to find all the commands in html5 and css3 to design every detail of this page.
+  </p>
+<br/>
+</section>
+
+<section id="photos" class="section">
+<br/>
+<br/>
+<br/>
+<br/>
+<h2><span>My Photos</span></h2>
+<br/>
+<br/>
+This is me in Australia:
+<br/>
+<br/>
+<center><img src=uluru.jpeg width=500 height=300 class="center"/></center>
+<br/>
+<br/>
+<br/>
+Here are my dog and I:
+<br/>
+<br/>
+<center><img src=leo.jpeg width=300 height=200 /></center>
+<br/>
+<br/>
+<br/>
+Here are my boyfriend and I:
+<br/>
+<br/>
+<center><img src=leon.jpeg width=400 height=250 /></center>
+<br/>
+<br/>
+<br/>
+Another picture of me from my trip, now in Thailand:
+<br/>
+<br/>
+<center><img src=thai.jpeg width=400 height=300 /></center>
+<br/>
+</section>
+
+<section id="playlist" class="section">
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<h2><span>My Playlist</span></h2>
+<br/>
+<br/>
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLDkHox5S5kiHN-OKb59TX2ZtEcfahpVDi" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</center>
+<br/>
+</section>
+
+<section id="like" class="section">
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<h2><span>Give Me A Like</span></h2>
+<br/>
+<br/>
+<br/>
+</section>
+
+<section id="qrcoder" class="section">
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<h2><span>Scan My Code</span></h2>
+<br/>
+<br/>
+<br/>
+</section>
+
+<section id="spa" class="section">
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<h2><span>Ans</span></h2>
+<br/>
+<br/>
+<br/>
+</section>
+
+<section id="contact" class="section">
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<h2><span>Contact Me</span></h2>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+</section>
+
+
+<script type="text/javascript">
+$(function(){
+  $("#nav a").click(function(e){
+    e.preventDefault();
+    $('html,body').scrollTo(this.hash,this.hash); 
+  });
+});
+</script>
+<script type="text/javascript">
+ $(document).scroll(function() {
+    $('#menu').toggle($(this).scrollTop()>1000)
+ });​
+ </script>
+</body>
+</html>

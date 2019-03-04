@@ -1,0 +1,98 @@
+#menu {
+	position: fixed;
+	width: 100%;
+	height: 35px;
+	background: rgb(253, 189, 199);
+	text-align: end;
+	padding: 10px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color: whitesmoke;
+}
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+li{
+	border-right: 1.5px solid whitesmoke;
+	display: inline;
+	padding-inline-end: 5px;
+}
+li:last-child{
+	border-right: none;
+}
+a:link {
+	text-decoration: none;
+	color: whitesmoke;
+}
+a:visited {
+	text-decoration: none;
+	color: whitesmoke;
+}
+a:hover {
+	text-decoration: underline;
+	color: whitesmoke;
+}
+a:active {
+	text-decoration: underline;
+	color: whitesmoke;
+}
+
+#about{
+	text-align: left;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color: black;
+}
+h1{
+	text-align: center;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color: black;
+	font-weight: bold;
+}
+h2 {
+	width: 100%; 
+	text-align: center; 
+	border-bottom: 3px solid rgb(253, 189, 199); 
+	line-height: 0.1em;
+	margin: 10px 0 20px; 
+ } 
+ h2 span { 
+	 background:#fff; 
+	 padding:0 10px; 
+ }
+
+ #photos{
+	text-align: left;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color: black;
+}
+#playlist{
+	text-align: left;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color: black;
+	font-weight: bold;
+}
+#like{
+	text-align: center;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color: black;
+	font-weight: bold;
+}
+#qrcoder{
+	text-align: center;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color: black;
+	font-weight: bold;
+}
+#spa{
+	text-align: center;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color: black;
+	font-weight: bold;
+}
+#contact{
+	text-align: center;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color: black;
+	font-weight: bold;
+}
