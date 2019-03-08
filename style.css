@@ -8,17 +8,17 @@
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	color: whitesmoke;
 }
-ul{
+ul.menu{
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 }
-li{
+li.menu{
 	border-right: 1.5px solid whitesmoke;
 	display: inline;
 	padding-inline-end: 5px;
 }
-li:last-child{
+li:last-child.menu{
 	border-right: none;
 }
 a:link {
